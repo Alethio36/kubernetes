@@ -1,0 +1,8 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        kubeworker1:
+          ansible_user: alethio
+          ansible_host: 10.11.21.30
