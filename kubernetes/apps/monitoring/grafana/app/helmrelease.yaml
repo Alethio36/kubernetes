@@ -96,6 +96,6 @@ spec:
             - *host
     persistence:
       enabled: true
-      storageClassName: truekube
+      storageClassName: local-path
     testFramework:
       enabled: false
