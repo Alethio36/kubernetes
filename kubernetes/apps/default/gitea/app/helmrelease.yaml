@@ -53,7 +53,7 @@ spec:
       enabled: true
       accessModes: ["ReadWriteOnce"]
       size: 10Gi
-      storageClass: local-path
+      storageClass: truekube
     gitea:
       admin:
         email: admin@admin.com
