@@ -56,7 +56,7 @@ spec:
       storageClass: local-path
     gitea:
       admin:
-        email: admin@admin.com
+        email: alethio@true-frontier.com
         username: gitea
       config:
         APP_NAME: Tea, Git, Hot
