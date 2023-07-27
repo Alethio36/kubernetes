@@ -51,9 +51,9 @@ spec:
       enabled: false
     persistence:
       enabled: true
-      accessModes: ["ReadWriteOnce"]
+      accessModes: ["ReadWriteMany"]
       size: 10Gi
-      storageClass: truekube
+      storageClass: local-path
     gitea:
       admin:
         email: admin@admin.com
