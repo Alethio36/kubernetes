@@ -31,6 +31,8 @@ spec:
     - name: ingress-nginx
       namespace: networking
   values:
+    initChownData:
+      enabled: false
     deploymentStrategy:
       type: Recreate
     admin:
