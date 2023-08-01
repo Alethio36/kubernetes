@@ -10,4 +10,4 @@ parameters:
 reclaimPolicy: Delete
 volumeBindingMode: Immediate
 mountOptions: ["hard", "noatime"]
-mountPermissions: 0777
+# mountPermissions: 0777
