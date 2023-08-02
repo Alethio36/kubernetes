@@ -59,6 +59,7 @@ spec:
       admin:
         email: alethio@true-frontier.com
         username: gitea
+        password: password
       config:
         APP_NAME: Tea, Git, Hot
         server:
