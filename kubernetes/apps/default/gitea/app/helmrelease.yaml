@@ -52,7 +52,7 @@ spec:
       enabled: false
     persistence:
       enabled: true
-      accessModes: ["ReadWriteMany"]
+      # accessModes: ["ReadWriteMany"]
       size: 10Gi
       storageClass: truekube
     gitea:
