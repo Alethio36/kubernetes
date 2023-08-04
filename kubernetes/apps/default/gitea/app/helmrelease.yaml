@@ -27,7 +27,7 @@ spec:
     - name: ingress-nginx
       namespace: networking
   values:
-  #   statefulset:
+    statefulset:
     image:
       rootless: true
     containerSecurityContext:
