@@ -29,7 +29,7 @@ spec:
   values:
     # statefulset:
     image:
-     #  rootless: true
+      rootless: false
     containerSecurityContext:
       capabilities:
         add: ["SYS_CHROOT"]
