@@ -50,7 +50,7 @@ spec:
       enabled: false
     postgresql:
       enabled: false
-    values:
+    global:
       replicaCount: 3 
     persistence:
       enabled: true
