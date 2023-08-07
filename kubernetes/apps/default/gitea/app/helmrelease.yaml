@@ -50,8 +50,8 @@ spec:
       enabled: false
     postgresql:
       enabled: false
-    global:
-      replicaCount: 3 
+    # global:
+    #   replicaCount: 3 
     persistence:
       enabled: true
       # accessModes: ["ReadWriteMany"]
