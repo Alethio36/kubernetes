@@ -15,7 +15,6 @@ spec:
         kind: HelmRepository
         name: gitea
         namespace: flux-system
-      replicaCount: 2
   maxHistory: 2
   install:
     createNamespace: true
@@ -51,6 +50,8 @@ spec:
       enabled: false
     postgresql:
       enabled: false
+    values:
+      replicaCount: 3 
     persistence:
       enabled: true
       # accessModes: ["ReadWriteMany"]
