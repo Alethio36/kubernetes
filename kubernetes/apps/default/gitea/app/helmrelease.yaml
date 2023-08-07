@@ -9,6 +9,7 @@ spec:
   interval: 30m
   chart:
     spec:
+      replicas: 2
       chart: gitea
       version: 7.0.2
       sourceRef:
