@@ -28,6 +28,8 @@ spec:
       namespace: networking
   values:
     # statefulset:
+    # global:
+    #   replicaCount: 3 
     image:
       rootless: false
     containerSecurityContext:
@@ -50,8 +52,6 @@ spec:
       enabled: false
     postgresql:
       enabled: false
-    # global:
-    #   replicaCount: 3 
     persistence:
       enabled: true
       # accessModes: ["ReadWriteMany"]
