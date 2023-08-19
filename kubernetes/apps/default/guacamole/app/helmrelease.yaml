@@ -30,7 +30,7 @@ spec:
       tag: 1.5.2
     env:
       TZ: "${TIMEZONE}"
-      EXTENSIONS: auth-totp
+      # EXTENSIONS: auth-totp
     service:
       main:
         ports:
