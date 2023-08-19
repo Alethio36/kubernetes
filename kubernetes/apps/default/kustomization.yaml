@@ -5,4 +5,4 @@ resources:
   - ./namespace.yaml
   - ./hajimari/ks.yaml
 #   - ./gitea/ks.yaml
-  - ./guacamole/ks.yaml
+#   - ./guacamole/ks.yaml
