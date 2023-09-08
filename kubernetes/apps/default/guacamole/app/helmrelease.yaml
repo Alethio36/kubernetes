@@ -41,7 +41,7 @@ spec:
         enabled: true
         ingressClassName: "nginx"
         annotations:
-          external-dns.alpha.kubernetes.io/target: "guac.${SECRET_DOMAIN}"
+          external-dns.alpha.kubernetes.io/target: "ingress.${SECRET_DOMAIN}"
           hajimari.io/icon: mdi:remote-desktop
         hosts:
           - host: &host "guac.${SECRET_DOMAIN}"
