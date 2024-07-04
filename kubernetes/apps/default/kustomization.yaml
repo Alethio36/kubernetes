@@ -6,3 +6,4 @@ resources:
   - ./hajimari/ks.yaml
   - ./gitea/ks.yaml
   - ./guacamole/ks.yaml
+  - ./keycloak/ks.yaml
